@@ -13,7 +13,14 @@ if SHIELD_KYRIA_LEFT || SHIELD_KYRIA_RIGHT
 
 config ZMK_SPLIT
 	default y
- 
+
+if SPI
+
+config SPI_2
+       default y
+
+endif # SPI
+
 if ZMK_DISPLAY
 
 config I2C
