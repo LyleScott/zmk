@@ -16,9 +16,6 @@ config ZMK_SPLIT
  
 if ZMK_DISPLAY
 
-config SP1
-    default y
-
 config I2C
 	default y
 
